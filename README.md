@@ -16,7 +16,7 @@ Para una descripción detallada de las fases y el flujo del juego, consulta el s
 
 * **Algoritmo MiniMax:** Tanto el gato como el ratón (en su fase inteligente) lo utilizan para la toma de decisiones estratégicas, explorando posibles jugadas futuras.
 * **Múltiples Condiciones de Finalización:** El juego concluye si el gato atrapa al ratón, si el ratón escapa por una salida, o si se alcanza el límite de turnos (empate).
-* **Función de Evaluación Estratégica:** El núcleo de la IA considera la distancia entre jugadores, la proximidad del ratón a las salidas, y un factor (`SEARCH_DEPTH - depth`) que recompensa la rapidez en la toma de decisiones durante la simulación de Minimax.
+* **Función de Evaluación Estratégica:** El núcleo de la IA considera la distancia entre jugadores, la proximidad del ratón a las salidas, y la rapidez en la toma de decisiones durante la simulación de Minimax.
 * **Comportamiento Evolutivo del Ratón:** Inicia con movimientos aleatorios (`TIMER_SMART`) antes de activar su comportamiento de huida inteligente basado en Minimax.
 * **Entorno de Juego Definido:** Tablero bidimensional con paredes, múltiples salidas, posiciones de inicio semi-aleatorias para los jugadores y movimiento en 8 direcciones.
 
